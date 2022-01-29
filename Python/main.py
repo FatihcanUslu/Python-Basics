@@ -582,8 +582,8 @@ content="mail"
 mail=smtplib.SMTP("smtp.gmail.com",587)# bu fonksiyon 2 parametre alır . ilk parametremiz hangi mail serverina bağlanmak istiyorsun.ikinci parametremiz bu mail serveri hangi portu kullanıyor
 mail.ehlo()#gmail'e kendimizi tanıtma işlemi
 mail.starttls()#mail kullanıcı adı ve şifremizi şifreleyerek gmail'e gönderir
-mail.login("yaybabyyay66@gmail.com","fatihatice07")
-mail.sendmail("yaybabyyay66@gmail.com","yparlak0014@gmail.com",content)
+mail.login("","")#your email adress and password
+mail.sendmail("","",content)#mail sender and mail getter
 #daha az güvenli uygulamalara için istenilen izni açmazsan çalışmaz derslin videosunda nasil yapildiği yaziyor
 """
 
